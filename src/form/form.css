@@ -1,0 +1,38 @@
+.standard-form {
+  width: 20rem;
+  border: 3px solid black;
+  padding: min(1rem, 25px);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.standard-form-submit-button {
+  align-self: center;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 1rem;
+
+  font-weight: bold;
+  background-color: #3d83df;
+  color: white;
+
+  cursor: pointer;
+}
+
+.standard-form-submit-button:hover {
+  background-color: #5297f1;
+}
+
+.standard-form-submit-button:active {
+  background-color: #1b4a88;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
