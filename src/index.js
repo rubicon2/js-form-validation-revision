@@ -1,7 +1,7 @@
 import createSignupForm, { createRowInputElement } from './form/form';
 import './style.css';
 
-const signupForm = createSignupForm([
+const signupForm = createSignupForm('Sign up', [
   createRowInputElement({
     type: 'email',
     labelText: 'Email',

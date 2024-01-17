@@ -1,11 +1,17 @@
 import './form.css';
 
-export default function createSignupForm(inputElements) {
+export default function createSignupForm(title, inputElements) {
   const form = document.createElement('form');
   form.classList.add('standard-form');
+
+  const legend = document.createElement('legend');
+  legend.innerText = title;
+  form.appendChild(legend);
+
   inputElements.forEach((inputElement) => {
     form.appendChild(inputElement);
   });
+
   const submitButton = document.createElement('button');
   submitButton.classList.add('standard-form-submit-button');
   submitButton.type = 'submit';

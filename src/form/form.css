@@ -16,6 +16,10 @@ button {
   justify-items: center;
 }
 
+.standard-form > legend {
+  text-align: center;
+}
+
 .standard-form-submit-button {
   align-self: center;
   padding: 0.4rem 1rem;
